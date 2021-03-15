@@ -1,3 +1,5 @@
+#![allow(unconditional_recursion)]
+
 use super::root::lib;
 use core::cell::UnsafeCell;
 use core::cmp::Ordering;
